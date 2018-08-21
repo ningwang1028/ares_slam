@@ -1,0 +1,27 @@
+occupancy_grid_map_resolution: 0.05
+min_update_distance: 0.2
+min_update_orientation: 10 # degree
+scan_buffer_size: 30
+loop_scan_search_distance: 10.0
+loop_match_min_chain_size: 5
+loop_closure_min_response: 0.75
+loop_closure_xy_variance_threshold: 0.005
+loop_closure_angle_variance_threshold: 0.05
+optimize_every_n_constrains: 20
+
+loop_closure_xy_search_range: 3.0
+loop_closure_angle_search_range: 20
+loop_closure_grid_resolution: 0.05
+loop_closure_coarse_xy_search_resolution: 0.1
+loop_closure_fine_xy_search_range: 0.1
+loop_closure_coarse_angle_search_resolution: 2
+loop_closure_fine_angle_search_range: 2
+loop_closure_fine_angle_search_resolution: 1
+
+use_correlative_scan_matcher: false
+csm_xy_search_range: 0.1
+csm_angle_search_range: 10
+csm_grid_resolution: 0.02
+csm_xy_search_resolution: 0.02
+csm_angle_search_resolution: 0.5
+
