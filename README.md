@@ -8,7 +8,7 @@ ROS package for 2D real-time simultaneous localization and mapping.
 ## Example
 An example map build by sick lidar. 
 
-<img src="map/map.pgm" height="512pix" /> 
+<img src="image/example.png" height="512pix" /> 
 
 ## Build
   ```shell 
